@@ -5,7 +5,6 @@
 }
 
 body {
-    padding-bottom: 100px;
     background: #FFF;
     font-family: 'Roboto', sans-serif, serif;
     font-weight: 700;
@@ -47,11 +46,8 @@ header {
 }
 
 .header__logo {
-    width: 80px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 5px;
-    overflow: hidden;
+    width: 120px;
+    background: none;
 }
 
 .header__title {
@@ -120,7 +116,7 @@ header {
 
 .find {
     background: #000;
-    padding: 100px;
+    padding-top: 100px;
     margin-top: 50px;
     color: #FFF;
 }
@@ -167,4 +163,130 @@ header {
     align-items: center;
     margin-top: 50px;
     text-align: right;
+}
+
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.history h2 {
+    color: #db545a;
+}
+
+.history p {
+    margin: 20px 0;
+}
+
+.cars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: url('../assets/img/uni-v1.webp');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 50px;
+}
+
+.cars img {
+    height: 100%;
+}
+
+.cars__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-left: 1px solid #0000007c;
+}
+
+.cars__set {
+    background: #FFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars__client {
+    background: #db545a;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.cars__btn {
+    background: #db545a;
+    display: inline-block;
+    color: #FFF;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.contacts__left {
+    max-width: 90%;
+}
+
+.contacts__left p {
+    color: #808080;
+    font-weight: 700;
+}
+
+.contacts__left a {
+    color: #000;
+}
+
+.contacts__left svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.contacts__media {
+    margin: 80px 0 20px 0;
+}
+
+.contacts__input {
+    border: none;
+    color: #111111;
+    background: #f2f2f2;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 10px;
+}
+
+.contacts__btn {
+    background: #db545a;
+    padding: 10px;
+    border: none;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.contacts__list {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer {
+    margin-top: 50px;
+    background: #000;
+    padding: 30px 0;
+    text-align: center;
+    color: #808080;
+    font-size: 14px;
 }
