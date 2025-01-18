@@ -292,3 +292,163 @@ header {
     color: #808080;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .best-car {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .best-car__left {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .best-car__right {
+        text-align: center;
+    }
+
+
+
+    .rental {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+
+
+
+
+    .find__main {
+        grid-template-columns: 1fr;
+    }
+
+    .find__img1 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .find__img2 {
+        max-width: 80%;
+        margin: 20px auto;
+    }
+
+
+    .find__bottom {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+
+
+
+    .history {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .history__img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+    .cars {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .contacts {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+    .best-car__left {
+        padding: 20px 0;
+    }
+
+    .best-car__left img {
+        transform: translate(20px);
+    }
+
+
+
+
+    .find__img1 img {
+        transform: translate(-25px, -25px);
+    }
+}
+
+
+@media (max-width:425px) {
+    .header__title {
+        margin-top: 120px;
+    }
+
+
+    .best-car__left {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .find__img1 {
+        max-width: 80%;
+    }
+
+
+    .find__img2 {
+        max-width: 90%;
+    }
+}
